@@ -1,0 +1,18 @@
+//Programa que imprime 10 números. Diana Guevara 181864
+
+#include <stdio.h>
+int main()
+{
+int numero;
+printf("Dame un numero: \n");
+scanf("%d", &numero);
+int contador;
+printf ("Los 10 numeros apartir este numero son:\n");
+contador = numero;
+while ( contador <= numero+10 )
+{
+printf("%d\n",contador);
+contador++;
+}
+return 0;
+}
