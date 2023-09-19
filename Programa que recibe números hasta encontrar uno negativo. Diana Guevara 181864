@@ -1,0 +1,13 @@
+//Programa que recibe números hasta encontrar uno negativo. Diana Guevara 181864
+
+#include <stdio.h>
+int main()
+{
+float numero;
+while (numero >= 0)
+{
+printf("Escribe el numero que deseas saber si es negativo o positivo\n");
+scanf("%f", &numero);
+}
+return 0;
+}
