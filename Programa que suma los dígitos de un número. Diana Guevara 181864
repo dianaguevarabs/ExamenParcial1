@@ -1,0 +1,20 @@
+//Programa que suma los dígitos de un número. Diana Guevara 181864
+
+#include <stdio.h>
+
+int main()
+{
+int numero, suma = 0, digito;
+printf ("Ingrese el numero de dos digitos que desea sumar entre si:");
+scanf("%d", &numero);
+int numerobase = numero;
+while (numero > 0)
+{
+digito = numero % 10;
+suma += digito;
+numero /= 10;
+printf ("\n");
+}
+printf("El resultado obtenido de la suma de los digitos de %d es: %d\n", numerobase, suma);
+return 0;
+}
