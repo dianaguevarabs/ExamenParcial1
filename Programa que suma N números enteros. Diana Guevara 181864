@@ -1,0 +1,18 @@
+//Programa que suma N números enteros. Diana Guevara 181864
+#include<stdio.h>
+
+int main()
+{
+int numero;
+printf("Dame un numero que deseas sumar todos sus valores anteriores\n");
+scanf("%d", &numero);
+int contador = 1;
+int suma = 0;
+while (contador <= numero)
+{
+suma = suma + contador;
+contador++;
+}
+printf("La suma total es %d", suma);
+return 0;
+}
